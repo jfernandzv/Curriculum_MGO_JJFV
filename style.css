@@ -1,0 +1,63 @@
+body {
+    display:flex;
+    flex-direction:row;   
+    background-color: rgb(123, 197, 123); 
+    color: white;
+    padding: 10px;
+}
+label {   
+    margin: 10px;
+    padding-bottom: 0px; 
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;   
+    vertical-align: bottom;
+}
+table thead {
+    padding: 50px;
+    font-weight: bolder;
+    font-size: larger;    
+}
+table td {  
+    font-size: 15px;  
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 30 px;
+    padding-right: 30px;
+}
+.etiquetaSecundaria  {     
+    font-size: 24px;
+    color: green;
+}
+.actualidad {
+    background-color: forestgreen;
+    border-radius: 20px;    
+    width: 35%;
+    padding: 20px;  
+    margin: 10px;  
+}
+.formacion {
+    color: rgb(7, 49, 7);
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    width: 65%;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(165, 199, 165);
+}
+.datosPersonales {
+    padding: 10px;
+    display: flex;      
+}
+.secciones {    
+    padding: 5px;
+    background-color: lightgray;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacto {
+    padding: 20px;
+}
